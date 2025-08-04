@@ -118,17 +118,8 @@ COORDINATE_ADDRESS = 0x10      # 坐标数据地址
 
 在 `imgprocess.py` 中的 `_process_frame` 方法里添加你的检测逻辑。
 
-### 自定义串口协议
+### 自定义串口任务
 
 继承 `Uart` 类并重写 `_handle_message` 方法来实现自定义的消息处理。
 
 
-## 贡献
-
-欢迎提交Issue和Pull Request！
-
-
-
-## 更新日志
-
-- v1.0.0: 初始版本，支持基本的目标检测和串口通信
